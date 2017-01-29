@@ -10,7 +10,7 @@
 
 ###Feature Variables (shows mean and standard deviation)
 * timeBodyAccelerometer - XYZ
-* timeGravityAccelerometer  XYZ
+* timeGravityAccelerometer - XYZ
 * timeBodyAccelerometerJerkSignal - XYZ
 * timeBodyGyroscope - XYZ
 * timeBodyGyroscopeJerkSignal - XYZ
