@@ -1,6 +1,33 @@
 ##CodeBook
 
-###Variables
+###Activity Variables
+* Walking
+* Walking Upstairs
+* Walking Downstairs
+* Sitting
+* Standing
+* Laying
+
+###Feature Variables (shows mean and standard deviation)
+* timeBodyAccelerometer - XYZ
+* timeGravityAccelerometer  XYZ
+* timeBodyAccelerometerJerkSignal - XYZ
+* timeBodyGyroscope - XYZ
+* timeBodyGyroscopeJerkSignal - XYZ
+* timeBodyAccelerometerMagnitude
+* timeBodyGravityMagnitude
+* timeBodyAccelerometerJerkSignalMagnitude
+* timeBodyGyroscopeMagnitude
+* timeBodyGyroscopeJerkSignalMagnitude
+* frequencyBodyAccelerometer - XYZ
+* frequencyBodyAccelerometerJerkSignal - XYZ
+* frequencyBodyGyroscope - XYZ
+* frequencyBodyAccelerometerMagnitude
+* frequencyBodyAccelerometerJerkSignalMagnitude
+* frequencyBodyGyroscopeMagnitude
+* frequencyBodyGyroscopeJerkSignalMagnitude
+
+###Variables Created in Script
 * X_test, y_test, subject_test - contains three tables in test folder
 * X_train, y_train, subject_train - contains three tables in train folder
 * activity_labels - contains activity labels data
@@ -14,7 +41,7 @@
 * newsubset - creates a subset of the data only looking at columns subject, activity, and those that include the values of mean or standard deviation
 * secondtidydata - new tidy data set with the average for each subject and each activity
 
-###Process
+###Process - R Script
 * Create directory for the data
 * Download zipped data file
 * Unzip data file
